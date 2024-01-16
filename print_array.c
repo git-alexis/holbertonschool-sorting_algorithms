@@ -13,15 +13,19 @@ void print_array(const int *array, size_t size)
 
 	i = 0;
 
+    /* Parcours du tableau */
 	while (array && i < size)
 	{
+		/* Imprime une virgule après le premier élément */
 		if (i > 0)
 		{
 			printf(", ");
 		}
 
+		/* Imprime l'élément courant */
 		printf("%d", array[i]);
 
+		/* Incrémente l'index */
 		++i;
 	}
 
