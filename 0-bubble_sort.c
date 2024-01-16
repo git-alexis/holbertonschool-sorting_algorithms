@@ -17,7 +17,7 @@ void bubble_sort(int *array, size_t size)
 	/* Variable temporaire pour l'échange des éléments */
 	int temp;
 
-    /*Vérification si le tableau est NULL ou si contient - de 2 éléments*/
+	/*Vérification si le tableau est NULL ou si contient - de 2 éléments*/
 	if (array == NULL || size < 2)
 	{
 		return;
