@@ -28,12 +28,12 @@ This project was created by Amandine Kemp and Alexis Billemont for the Holberton
 La notation "Big O" (ou "Big Oh") est une manière de décrire la performance ou la complexité d'un algorithme en fonction de la taille de son entrée. Elle fournit une borne supérieure sur le taux de croissance du temps d'exécution de l'algorithme en fonction de la taille de l'entrée.
 
 Exemples courants de notations "Big O" :
-O(1): Temps constant.
-O(log n): Temps logarithmique.
-O(n): Temps linéaire.
-O(n^2): Temps quadratique.
-O(2^n): Temps exponentiel.
-O(n!): Temps factoriel.
+* O(1): Temps constant.
+* O(log n): Temps logarithmique.
+* O(n): Temps linéaire.
+* O(n^2): Temps quadratique.
+* O(2^n): Temps exponentiel.
+* O(n!): Temps factoriel.
 
 Un algorithme de tri stable :
 Un algorithme de tri est considéré comme stable si l'ordre relatif des éléments égaux dans la séquence d'entrée est préservé dans la séquence triée en sortie.
