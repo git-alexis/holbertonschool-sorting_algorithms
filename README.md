@@ -37,6 +37,7 @@ Common examples of "Big O" notation:
 * O(n!): Factorial time.
 
 A stable sorting algorithm: A sorting algorithm is considered stable if the relative order of equal elements in the input sequence is preserved in the sorted output sequence.
+
 ----------
 
 ## ➤ Resources:
