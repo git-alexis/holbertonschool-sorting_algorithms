@@ -25,19 +25,18 @@ This project was created by Amandine Kemp and Alexis Billemont for the Holberton
 
 ## ➤ Description:
 
-La notation "Big O" (ou "Big Oh") est une manière de décrire la performance ou la complexité d'un algorithme en fonction de la taille de son entrée. Elle fournit une borne supérieure sur le taux de croissance du temps d'exécution de l'algorithme en fonction de la taille de l'entrée.
+The "Big O" (or "Big Oh") notation is a way of describing the performance or complexity of an algorithm as a function of the size of its input. It provides an upper bound on the rate of growth of the algorithm's execution time as a function of input size.
 
-Exemples courants de notations "Big O" :
-* O(1): Temps constant.
-* O(log n): Temps logarithmique.
-* O(n): Temps linéaire.
-* O(n^2): Temps quadratique.
-* O(2^n): Temps exponentiel.
-* O(n!): Temps factoriel.
+Common examples of "Big O" notation:
 
-Un algorithme de tri stable :
-Un algorithme de tri est considéré comme stable si l'ordre relatif des éléments égaux dans la séquence d'entrée est préservé dans la séquence triée en sortie.
+* O(1): Constant time.
+* O(log n): Logarithmic time.
+* O(n): Linear time.
+* O(n^2): Quadratic time.
+* O(2^n): Exponential time.
+* O(n!): Factorial time.
 
+A stable sorting algorithm: A sorting algorithm is considered stable if the relative order of equal elements in the input sequence is preserved in the sorted output sequence.
 ----------
 
 ## ➤ Resources:
@@ -164,9 +163,9 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 ----------
 
-# ➤ Tasks:
+## ➤ Tasks:
 
-## 0. Bubble sort
+### 0. Bubble sort
 
 Write a function that sorts an array of integers in ascending order using the Bubble sort algorithm
 
@@ -237,7 +236,7 @@ Repo:
 * GitHub repository: holbertonschool-sorting_algorithms
 * File: 0-bubble_sort.c, 0-O
 
-## 1. Insertion sort
+### 1. Insertion sort
 
 Write a function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
 
